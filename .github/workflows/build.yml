@@ -8,7 +8,7 @@ jobs:
       matrix:
         os: [windows-latest]
         build_type: [Release]
-	enable_ui: [on]
+        enable_ui: [on]
         include:
           - os: windows-latest
             build_type: Release
